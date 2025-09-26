@@ -11,5 +11,5 @@ B.E., Mechanical Engineering, Wuhan University of Technology, 2019—2023.
 
 #### Research Interests
 
-Robotic Navigation, 3D Gaussian Splatting, SLAM
+Robotic Navigation, 3D Gaussian Splatting, SLAM, Robotic Measurement
 
