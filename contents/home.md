@@ -2,7 +2,7 @@ I'm currently a master student in the Department of Mechanical Science and Engin
 
 #### Contact
 
-Email: poisson\_bs@hust.edu.cn
+Email: poisson_bs@hust.edu.cn
 
 #### Education
 
@@ -11,5 +11,5 @@ B.E., Mechanical Engineering, Wuhan University of Technology, 2019—2023.
 
 #### Research Interests
 
-Robotic Navigation, 3D Gaussian Splatting, SLAM
+Robotic Navigation, 3D Gaussian Splatting, SLAM, Robotic Measurement
 
