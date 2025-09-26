@@ -5,5 +5,5 @@
 
 - Outstanding Graduate Award (WUT), 2023.
 
-- Outstanding Bachelor's Thesis Award, 2023.
+- Outstanding Bachelor's Thesis Award (WUT), 2023.
 
