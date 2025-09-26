@@ -1,11 +1,15 @@
 #### Submitted
 
-- <strong>BS. Qi</strong>, TR. Lan, ZW. Lian, ZW. Wang*, XJ. Zhang*, and H. Ding. CMCOP: Joint Calibration of Multiple Tracker Poses and Maker-eye Transformation based on Cayley Map and Consensus Optimization. <strong>Submitted</strong>
+- <strong>BS. Qi</strong>, TR. Lan, ZW. Lian, ZW. Wang*, XJ. Zhang*, and H. Ding. CMCOP: Joint Calibration of Multiple Tracker Poses and Maker-eye Transformation based on Cayley Map and Consensus Optimization. <strong>IEEE Transactions on Industrial Informatics (TII) </strong> <strong>Submitted</strong>
 
 #### Published (First-author)
 
-- <strong>BS. Qi</strong>, XY, Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- <strong>BS. Qi</strong>, XY, Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A Robust Simultaneous Calibration Method for Mobile Robotic Measurement System Based on Global-Photogrammetry Tracking. <strong>IEEE Transactions on Instrumentation and Measurement (TIM) </strong>. [[Paper]](10.1109/TIM.2025.3585220)
 
 #### Published (co-author)
 
+- ZW. Wang, <strong>BS. Qi</strong>, XY, Lin,  YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). High Accuracy Hand-Eye Calibration Method Using Pose Graph Constraints and Sequential Quadratic Programming in Robotic Inspection. <strong> 2025 IEEE International Conference on Mechatronics (ICM) </strong>. \[\[\Paper]\]\(https://ieeexplore.ieee.org/abstract/document/10934902)
 
+- W. Chen, <strong>BS. Qi</strong>, ZW. Wang, J. Yue, Zy. Yang*, Q. Tang, XJ. Zhang, SJ. Yan\* and H. Ding (2025). Robust High-Accuracy Calibration of Laser Displacement Sensors via ADMM. <strong>Frontiers of Mechanical Engineering</strong>. [](10.1109/TIM.2025.3585220)
+
+- XY, Lin, ZW. Wang, YF. Yang, <strong>BS. Qi</strong>, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A tracker pose optimization method for robotic measuring system based on spatial distance constraints. <strong>Measurement\</strong>. \[\[Paper\]\][](10.1109/TIM.2025.3585220)(https://www.sciencedirect.com/science/article/abs/pii/S0263224124022000)
