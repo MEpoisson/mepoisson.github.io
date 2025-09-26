@@ -6,7 +6,7 @@ I'm currently a master student in the Department of Mechanical Science and Engin
 
 #### Contact
 
-Email: poisson_bs[at]hust.edu.cn
+Email: poisson_bs@hust.edu.cn
 
 #### Education
 M.E., Mechanical Engineering, Huazhong University of Science and Technology, 2023—2026.\
