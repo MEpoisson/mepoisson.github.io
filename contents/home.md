@@ -1,6 +1,6 @@
 
 
-[![Bosong Qi](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/MEpoisson/mepoisson.github.io)
+[![Bosong Qi]
 
 I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology.
 
