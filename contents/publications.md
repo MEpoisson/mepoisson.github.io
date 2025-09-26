@@ -4,12 +4,12 @@
 
 #### Published (First-author)
 
-- <strong>BS. Qi</strong>, XY, Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A Robust Simultaneous Calibration Method for Mobile Robotic Measurement System Based on Global-Photogrammetry Tracking. <strong>IEEE Transactions on Instrumentation and Measurement (TIM) </strong>. [[Paper]](10.1109/TIM.2025.3585220)
+- <strong>BS. Qi</strong>, XY, Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A Robust Simultaneous Calibration Method for Mobile Robotic Measurement System Based on Global-Photogrammetry Tracking. <strong>IEEE Transactions on Instrumentation and Measurement (TIM) </strong>. [[Paper]](https://ieeexplore.ieee.org/abstract/document/11063423)
 
 #### Published (co-author)
 
-- ZW. Wang, <strong>BS. Qi</strong>, XY, Lin,  YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). High Accuracy Hand-Eye Calibration Method Using Pose Graph Constraints and Sequential Quadratic Programming in Robotic Inspection. <strong> 2025 IEEE International Conference on Mechatronics (ICM) </strong>. \[\[\Paper]\]\(https://ieeexplore.ieee.org/abstract/document/10934902)
+- ZW. Wang, <strong>BS. Qi</strong>, XY, Lin,  YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). High Accuracy Hand-Eye Calibration Method Using Pose Graph Constraints and Sequential Quadratic Programming in Robotic Inspection. <strong> 2025 IEEE International Conference on Mechatronics (ICM) </strong>. \[\[Paper]\]\(https://ieeexplore.ieee.org/abstract/document/10934902)
 
-- W. Chen, <strong>BS. Qi</strong>, ZW. Wang, J. Yue, Zy. Yang*, Q. Tang, XJ. Zhang, SJ. Yan\* and H. Ding (2025). Robust High-Accuracy Calibration of Laser Displacement Sensors via ADMM. <strong>Frontiers of Mechanical Engineering</strong>. [](10.1109/TIM.2025.3585220)
+- W. Chen, <strong>BS. Qi</strong>, ZW. Wang, J. Yue, Zy. Yang*, Q. Tang, XJ. Zhang, SJ. Yan\* and H. Ding (2025). Robust High-Accuracy Calibration of Laser Displacement Sensors via ADMM. <strong>Frontiers of Mechanical Engineering </strong>. [](10.1109/TIM.2025.3585220)
 
-- XY, Lin, ZW. Wang, YF. Yang, <strong>BS. Qi</strong>, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A tracker pose optimization method for robotic measuring system based on spatial distance constraints. <strong>Measurement\</strong>. \[\[Paper\]\][](10.1109/TIM.2025.3585220)(https://www.sciencedirect.com/science/article/abs/pii/S0263224124022000)
+- XY, Lin, ZW. Wang, YF. Yang, <strong>BS. Qi</strong>, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A tracker pose optimization method for robotic measuring system based on spatial distance constraints. <strong>Measurement \</strong>. \[\[Paper\]\][](10.1109/TIM.2025.3585220)(https://www.sciencedirect.com/science/article/abs/pii/S0263224124022000)
