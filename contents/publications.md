@@ -12,4 +12,4 @@
 
 - W. Chen, <strong>BS. Qi</strong>, ZW. Wang, J. Yue, ZY. Yang*, Q. Tang, XJ. Zhang, SJ. Yan* and H. Ding (2025). Robust High-Accuracy Calibration of Laser Displacement Sensors via ADMM. <strong>Frontiers of Mechanical Engineering </strong>. 
 
-- XY, Lin, ZW. Wang, YF. Yang, <strong>BS. Qi</strong>, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A tracker pose optimization method for robotic measuring system based on spatial distance constraints. <strong>Measurement </strong>. [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0263224124022000)
+- XY, Lin, ZW. Wang, YF. Yang, <strong>BS. Qi</strong>, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A tracker pose optimization method for robotic measuring system based on spatial distance constraints. <strong>Measurement</strong>. [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0263224124022000)
