@@ -1,6 +1,6 @@
 
 
-[![Bosong Qi]
+
 
 I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology.
 
