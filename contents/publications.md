@@ -1,7 +1,6 @@
 #### Submitted
 
-- <strong>BS. Qi</strong>, TR. Lan, ZW. Lian, ZW. Wang*, XJ. Zhang*, and H. Ding. CMCOP: Joint Calibration of Multiple Tracker Poses and Maker-eye Transformation based on Cayley Map and Consensus Optimization. <strong>IEEE Transactions on Industrial Informatics (TII) </strong> <strong>Submitted</strong>
-
+- <strong>BS. Qi</strong>, TR. Lan, ZW. Lian, ZW. Wang*, XJ. Zhang*, and H. Ding. CMCOP: Joint Calibration of Multiple Tracker Poses and Maker-eye Transformation based on Cayley Map and Consensus Optimization. <strong>IEEE Transactions on Industrial Informatics (TII) </strong>.
 #### Published (First-author)
 
 - <strong>BS. Qi</strong>, XY, Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding (2025). A Robust Simultaneous Calibration Method for Mobile Robotic Measurement System Based on Global-Photogrammetry Tracking. 
