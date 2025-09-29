@@ -2,12 +2,12 @@ I'm currently a master student in the Department of Mechanical Science and Engin
 
 #### Contact
 
-Email: poisson_bs@hust.edu.cn
+Email: poisson\_bs@hust.edu.cn
 
 #### Education
 
 M.E., Mechanical Engineering, Huazhong University of Science and Technology, 2023—2026.  
-Advisor: Prof. Xiaojian Zhang, RobotCNC Group.
+Advisor: Prof. Xiaojian Zhang, RobotCNC Group. \
 B.E., Mechanical Engineering, Wuhan University of Technology, 2019—2023.
 
 #### Research Interests
