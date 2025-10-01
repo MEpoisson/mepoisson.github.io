@@ -2,7 +2,7 @@ I'm currently a master student in the Department of Mechanical Science and Engin
 
 #### Contact
 
-Email: poisson\_bs@hust.edu.cn
+Email: poisson_bs@hust.edu.cn
 
 #### Education
 
