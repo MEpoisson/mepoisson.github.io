@@ -1,4 +1,5 @@
-I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology.
+I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology. In the future, I plan to go to the
+School of Remote Sensing and Information Engineering of Wuhan University to pusure my PhD Degree. 
 
 #### Contact
 
