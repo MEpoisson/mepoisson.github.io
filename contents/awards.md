@@ -1,7 +1,5 @@
 
-- First-Prize Scholarship (HUST), 2024.
-
-- First-Prize Scholarship (HUST), 2023.
+- First-Prize Scholarship (HUST), 2023-2025.
 
 - Outstanding Graduate Award (WUT), 2023.
 
