@@ -1,4 +1,4 @@
-I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology. In the future, I plan to pursue my PhD degree at the SkyEarth Lab of the School of Remote Sensing and Information Engineering, Wuhan University. 
+I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology. In the future, I plan to pursue my PhD degree at the SkyEarth Lab of the School of Remote Sensing and Information Engineering, Wuhan University.
 
 #### Contact
 
