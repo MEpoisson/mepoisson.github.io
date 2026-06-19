@@ -1,16 +1,19 @@
-I'm currently a master student in the Department of Mechanical Science and Engineering at Huazhong University of Science and Technology. In the future, I plan to pursue my PhD degree at the SkyEarth Lab of the School of Remote Sensing and Information Engineering, Wuhan University.
+I'm currently a Ph.D. student in the iMAP Lab at the School of Remote Sensing and Information Engineering, Wuhan University.
 
 #### Contact
 
-Email: poisson_bs@hust.edu.cn
+Email: poisson0622@gmail.com
 
 #### Education
 
+Ph.D. student, Photogrammetry and Remote Sensing, Wuhan University, 2026-present.  
+Advisor: Prof. Jiayuan Li, iMAP Lab.  
 M.E., Mechanical Engineering, Huazhong University of Science and Technology, 2023—2026.  
-Advisor: Prof. Xiaojian Zhang, RobotCNC Group. \
+Advisor: Prof. Xiaojian Zhang, RobotCNC Group. \
 B.E., Mechanical Engineering, Wuhan University of Technology, 2019—2023.
 
 #### Research Interests
 
-Robotic Navigation, 3D Gaussian Splatting, SLAM, Large-scale Metrology
+Feed-forward 3D Reconstruction, SLAM, Sensor Calibration
+
 
