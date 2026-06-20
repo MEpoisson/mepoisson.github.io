@@ -479,16 +479,20 @@ section .main-body li::before {
 }
 
 #awards .main-body li {
-    min-height: 6.4rem;
+    min-height: 4.8rem;
     display: flex;
     align-items: center;
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 #awards .main-body li::before {
     top: 50%;
     transform: translateY(-50%);
+}
+
+#awards .main-body li p {
+    margin: 0;
 }
 
 #publications .main-body li:not(:has(.pub-tags)) {
