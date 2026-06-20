@@ -191,24 +191,32 @@ a:hover {
 
 .profile-sidebar {
     position: sticky;
-    top: 6.4rem;
+    top: 5rem;
     align-self: start;
+    min-height: calc(100vh - 5rem);
+    display: flex;
+    align-items: center;
+    margin-top: -11.5rem;
 }
 
 .profile-card {
+    width: 100%;
+    max-height: calc(100vh - 7rem);
     border: 1px solid rgba(220, 227, 236, 0.92);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.92);
     box-shadow: var(--shadow);
     backdrop-filter: blur(14px);
-    padding: 1.7rem;
+    padding: clamp(1.05rem, 2.2vh, 1.7rem);
+    overflow: auto;
+    scrollbar-width: thin;
 }
 
 .profile-photo {
-    width: 10rem;
-    height: 10rem;
+    width: clamp(7.6rem, 18vh, 10rem);
+    height: clamp(7.6rem, 18vh, 10rem);
     display: block;
-    margin: 0 auto 1.2rem;
+    margin: 0 auto clamp(0.65rem, 1.8vh, 1.2rem);
     object-fit: cover;
     border: 0.42rem solid #fff;
     border-radius: 999px;
@@ -217,7 +225,7 @@ a:hover {
 
 .profile-eyebrow {
     width: fit-content;
-    margin: 0 auto 0.65rem;
+    margin: 0 auto clamp(0.4rem, 1.2vh, 0.65rem);
     padding: 0.32rem 0.58rem;
     color: var(--accent-dark);
     border: 1px solid rgba(27, 111, 143, 0.2);
@@ -233,13 +241,13 @@ a:hover {
     margin: 0;
     color: var(--ink);
     font-family: "Newsreader", Georgia, serif;
-    font-size: 2rem;
+    font-size: clamp(1.7rem, 4.2vh, 2rem);
     line-height: 1.05;
     text-align: center;
 }
 
 .profile-name-cn {
-    margin: 0.35rem 0 0.8rem;
+    margin: 0.25rem 0 clamp(0.45rem, 1.4vh, 0.8rem);
     color: var(--accent);
     font-size: 1.1rem;
     font-weight: 800;
@@ -247,7 +255,7 @@ a:hover {
 }
 
 .profile-role {
-    margin: 0 0 1.25rem;
+    margin: 0 0 clamp(0.7rem, 2vh, 1.25rem);
     color: var(--muted);
     font-size: 0.92rem;
     line-height: 1.62;
@@ -256,8 +264,8 @@ a:hover {
 
 .profile-links {
     display: grid;
-    gap: 0.65rem;
-    padding-top: 1rem;
+    gap: clamp(0.42rem, 1.2vh, 0.65rem);
+    padding-top: clamp(0.65rem, 1.6vh, 1rem);
     border-top: 1px solid var(--line);
 }
 
@@ -266,8 +274,8 @@ a:hover {
     grid-template-columns: 1.25rem minmax(0, 1fr);
     gap: 0.65rem;
     align-items: center;
-    min-height: 2.85rem;
-    padding: 0.74rem 0.82rem;
+    min-height: clamp(2.35rem, 5.3vh, 2.85rem);
+    padding: clamp(0.5rem, 1.2vh, 0.74rem) 0.82rem;
     color: var(--ink);
     border: 1px solid rgba(220, 227, 236, 0.9);
     border-radius: 8px;
@@ -512,10 +520,15 @@ footer a:focus {
 
     .profile-sidebar {
         position: static;
+        min-height: 0;
+        display: block;
+        margin-top: 0;
     }
 
     .profile-card {
         max-width: 38rem;
+        max-height: none;
+        overflow: visible;
         margin: 0 auto;
     }
 }
