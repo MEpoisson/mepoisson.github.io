@@ -468,27 +468,69 @@ section .main-body li::before {
     transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
-#publications .main-body li:has(.pub-badge) {
-    padding-bottom: 3.4rem;
+#publications .main-body li:has(.pub-tags) {
+    padding-bottom: 3.65rem;
 }
 
-.pub-badge {
+.pub-tags {
     position: absolute;
     right: 1rem;
     bottom: 0.85rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.38rem;
+    max-width: calc(100% - 2rem);
+}
+
+.pub-tag {
     display: inline-flex;
     align-items: center;
-    max-width: calc(100% - 2rem);
-    padding: 0.36rem 0.68rem;
-    color: #08704b;
-    border: 1px solid #42d99a;
+    padding: 0.32rem 0.58rem;
     border-radius: 8px;
-    background: #dcfff0;
-    box-shadow: 0 8px 22px rgba(8, 112, 75, 0.08);
-    font-size: 0.82rem;
+    border: 1px solid transparent;
+    box-shadow: 0 8px 22px rgba(27, 43, 64, 0.06);
+    font-size: 0.78rem;
     font-weight: 800;
-    line-height: 1.25;
-    white-space: normal;
+    line-height: 1.15;
+    white-space: nowrap;
+}
+
+.tag-accepted {
+    color: #08704b;
+    border-color: #42d99a;
+    background: #dcfff0;
+}
+
+.tag-under-review {
+    color: #9b1c1c;
+    border-color: #f29a9a;
+    background: #ffe5e5;
+}
+
+.tag-ccf-a {
+    color: #663399;
+    border-color: #c7a4f5;
+    background: #f1e8ff;
+}
+
+.tag-ccf-b {
+    color: #1f4f99;
+    border-color: #93baf2;
+    background: #e7f0ff;
+}
+
+.tag-jcr-q1 {
+    color: #8a5a00;
+    border-color: #e4bd55;
+    background: #fff4cf;
+}
+
+.tag-if {
+    color: #345160;
+    border-color: #a9c3cf;
+    background: #edf5f8;
 }
 
 #publications .main-body li:hover,
@@ -635,14 +677,17 @@ footer a:focus {
         padding: 0.9rem 0.95rem 0.9rem 1.1rem;
     }
 
-    #publications .main-body li:has(.pub-badge) {
-        padding-bottom: 3.75rem;
+    #publications .main-body li:has(.pub-tags) {
+        padding-bottom: 4.2rem;
     }
 
-    .pub-badge {
+    .pub-tags {
         right: 0.85rem;
         bottom: 0.85rem;
-        font-size: 0.76rem;
+    }
+
+    .pub-tag {
+        font-size: 0.72rem;
     }
 
     .profile-layout {
