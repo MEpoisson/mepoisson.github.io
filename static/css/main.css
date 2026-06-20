@@ -468,14 +468,24 @@ section .main-body li::before {
     transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
+#publications .main-body li {
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+
 #publications .main-body li:has(.pub-tags) {
-    padding-bottom: 3.65rem;
+    min-height: 7.9rem;
+    align-items: flex-start;
+    padding-bottom: 2.35rem;
 }
 
 .pub-tags {
     position: absolute;
     right: 1rem;
-    bottom: 0.85rem;
+    bottom: 0.6rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -487,7 +497,7 @@ section .main-body li::before {
 .pub-tag {
     display: inline-flex;
     align-items: center;
-    padding: 0.32rem 0.58rem;
+    padding: 0.26rem 0.52rem;
     border-radius: 8px;
     border: 1px solid transparent;
     box-shadow: 0 8px 22px rgba(27, 43, 64, 0.06);
@@ -678,12 +688,13 @@ footer a:focus {
     }
 
     #publications .main-body li:has(.pub-tags) {
-        padding-bottom: 4.2rem;
+        min-height: 8.4rem;
+        padding-bottom: 2.9rem;
     }
 
     .pub-tags {
         right: 0.85rem;
-        bottom: 0.85rem;
+        bottom: 0.6rem;
     }
 
     .pub-tag {
