@@ -6,7 +6,7 @@ Email: poisson0622@gmail.com
 
 #### Education
 
-Ph.D. student, Photogrammetry and Remote Sensing, Wuhan University, 2026—present.  
+Ph.D., Photogrammetry and Remote Sensing, Wuhan University, 2026—present.  
 Advisor: Prof. Jiayuan Li, iMAP Lab.  
 M.E., Mechanical Engineering, Huazhong University of Science and Technology, 2023—2026.  
 Advisor: Prof. Xiaojian Zhang, RobotCNC Group. \
