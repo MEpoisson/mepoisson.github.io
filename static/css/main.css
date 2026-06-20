@@ -478,6 +478,19 @@ section .main-body li::before {
     padding-bottom: 0.9rem;
 }
 
+#awards .main-body li {
+    min-height: 6.4rem;
+    display: flex;
+    align-items: center;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+
+#awards .main-body li::before {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 #publications .main-body li:not(:has(.pub-tags)) {
     padding-top: 1.28rem;
     padding-bottom: 0.52rem;
