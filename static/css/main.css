@@ -12,8 +12,8 @@
     --accent-warm: #c68948;
     --shadow: 0 18px 50px rgba(28, 43, 63, 0.12);
     --section-space: 5.5rem;
-    --content-width: 760px;
-    --sidebar-width: 300px;
+    --content-width: 840px;
+    --sidebar-width: 340px;
 }
 
 html {
@@ -39,7 +39,7 @@ a:hover {
 }
 
 .container {
-    max-width: 1040px;
+    max-width: 1220px;
 }
 
 .header {
@@ -210,7 +210,7 @@ a:hover {
 .profile-grid {
     display: grid;
     grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
-    gap: 4rem;
+    gap: 5.5rem;
     align-items: start;
 }
 
@@ -226,12 +226,12 @@ a:hover {
     background: rgba(255, 255, 255, 0.92);
     box-shadow: var(--shadow);
     backdrop-filter: blur(14px);
-    padding: 1.4rem;
+    padding: 1.7rem;
 }
 
 .profile-photo {
-    width: 9.5rem;
-    height: 9.5rem;
+    width: 10rem;
+    height: 10rem;
     display: block;
     margin: 0 auto 1.2rem;
     object-fit: cover;
@@ -291,8 +291,8 @@ a:hover {
     grid-template-columns: 1.25rem minmax(0, 1fr);
     gap: 0.65rem;
     align-items: center;
-    min-height: 2.7rem;
-    padding: 0.68rem 0.75rem;
+    min-height: 2.85rem;
+    padding: 0.74rem 0.82rem;
     color: var(--ink);
     border: 1px solid rgba(220, 227, 236, 0.9);
     border-radius: 8px;
@@ -313,6 +313,21 @@ a:hover {
 .profile-links i {
     color: var(--accent);
     font-size: 1rem;
+}
+
+.scholar-icon {
+    width: 1.08rem;
+    height: 1.08rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 999px;
+    background: #4285f4;
+    font-family: Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1;
 }
 
 .profile-links span {
@@ -523,7 +538,7 @@ footer a:focus {
 
     .profile-grid {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 3.4rem;
     }
 
     .profile-sidebar {
@@ -531,7 +546,7 @@ footer a:focus {
     }
 
     .profile-card {
-        max-width: 34rem;
+        max-width: 38rem;
         margin: 0 auto;
     }
 }
