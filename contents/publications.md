@@ -14,7 +14,7 @@
 
 #### Under Review
 
-- Yifan Yang, Sijie Yan, <strong>Bosong Qi</strong>, Ziwei Wang, Chizhou Zhang, Zeyuan Yang, and Han Ding. A Joint Calibration Method for Photogrammetry Station Relocation and Marker-to-Scanner Matrices with Lie Algebra. <strong>Science China Technological Sciences</strong>. Under Review.
+- Yifan Yang, Sijie Yan, <strong>Bosong Qi</strong>, Ziwei Wang*, Chizhou Zhang, Zeyuan Yang, and Han Ding. A Joint Calibration Method for Photogrammetry Station Relocation and Marker-to-Scanner Matrices with Lie Algebra. <strong>Science China Technological Sciences</strong>. Under Review.
 
 - Ziwei Wang, <strong>Bosong Qi</strong>, Xiaoyu Lin, Zeyuan Yang*, Yifan Yang, Sijie Yan, and Han Ding. Hierarchical Graph Constrained Joint Poses Optimization in AX = YB Problem. <strong>IEEE/ASME Transactions on Mechatronics</strong>. Under Review.
 
