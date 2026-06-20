@@ -1,69 +1,360 @@
 @import "./styles.css";
 
+:root {
+    --page-bg: #f7f8fb;
+    --surface: #ffffff;
+    --surface-soft: #eef3f8;
+    --ink: #18202f;
+    --muted: #657084;
+    --line: #dce3ec;
+    --accent: #1b6f8f;
+    --accent-dark: #11475d;
+    --accent-warm: #c68948;
+    --shadow: 0 18px 50px rgba(28, 43, 63, 0.12);
+    --section-space: 5.5rem;
+    --content-width: 920px;
+}
 
-:root{
-    --h-title-color:#3948d2;
+html {
+    scroll-padding-top: 5.5rem;
+}
+
+body {
+    color: var(--ink);
+    background:
+        radial-gradient(circle at 0% 0%, rgba(27, 111, 143, 0.09), transparent 34rem),
+        linear-gradient(180deg, #ffffff 0%, var(--page-bg) 34rem);
+    font-weight: 500;
+}
+
+a {
+    color: var(--accent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+}
+
+a:hover {
+    color: var(--accent-dark);
+}
+
+.container {
+    max-width: 1040px;
 }
 
 .header {
-    border-bottom: solid 2px var(--bs-blue);
+    border: 0;
     z-index: 10000;
 }
 
-.bg-bottom {
-    background-color: var(--h-title-color);
+#mainNav {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    background: rgba(255, 255, 255, 0.88);
+    border-bottom: 1px solid rgba(220, 227, 236, 0.88);
+    box-shadow: 0 12px 34px rgba(22, 34, 51, 0.08);
+    backdrop-filter: blur(16px);
+}
+
+#mainNav .navbar-brand {
+    color: var(--ink);
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:active {
+    color: var(--accent);
+}
+
+#mainNav .navbar-toggler {
+    width: 2.75rem;
+    height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+#mainNav .navbar-nav {
+    align-items: center;
+    gap: 0.35rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    position: relative;
+    padding: 0.55rem 0.15rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0.15rem;
+    right: 0.15rem;
+    bottom: 0.25rem;
+    height: 2px;
+    background: var(--accent-warm);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: var(--ink);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover::after,
+#mainNav .navbar-nav .nav-item .nav-link.active::after {
+    transform: scaleX(1);
 }
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    padding: 9rem 0 7rem;
+    overflow: hidden;
     background-position: center;
     background-size: cover;
-    height: 25rem;
 }
 
-.top-section h2 {
-    font-weight: 400;
+.top-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(9, 22, 35, 0.82), rgba(9, 22, 35, 0.42) 58%, rgba(9, 22, 35, 0.18)),
+        linear-gradient(0deg, rgba(9, 22, 35, 0.28), rgba(9, 22, 35, 0.28));
+}
+
+.top-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 7rem;
+    background: linear-gradient(180deg, rgba(247, 248, 251, 0), var(--page-bg));
 }
 
 .top-section .top-section-content {
     position: relative;
     z-index: 1;
+    width: 100%;
 }
 
-.top-section:before {
+.hero-kicker {
+    width: fit-content;
+    margin: 0 0 1.2rem;
+    padding: 0.45rem 0.7rem;
+    color: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.top-section h2 {
+    max-width: 760px;
+    margin: 0;
+    color: #fff;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.02;
+    text-wrap: balance;
+    text-shadow: 0 16px 44px rgba(0, 0, 0, 0.24);
+}
+
+#avatar {
+    position: relative;
+    z-index: 4;
+    height: 0;
+    margin: 0;
+}
+
+#avatar img {
+    position: absolute;
+    right: 0;
+    bottom: -4.7rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border: 0.55rem solid #fff;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: var(--shadow);
+}
+
+aside,
+section {
+    padding-top: var(--section-space);
+    padding-bottom: var(--section-space);
+}
+
+section .container {
+    max-width: var(--content-width);
+}
+
+section header {
+    margin-bottom: 1.8rem;
+}
+
+section header h2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0;
+    color: var(--ink);
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 1.75rem;
+    line-height: 1.15;
+}
+
+section header h2::after {
+    content: "";
+    width: 3rem;
+    height: 2px;
+    margin-left: 0.2rem;
+    background: var(--accent-warm);
+}
+
+section header h2 i {
+    color: var(--accent);
+    font-size: 1.35rem;
+}
+
+section .main-body {
+    color: var(--muted);
+    font-size: 1.03rem;
+    font-weight: 500;
+    line-height: 1.86;
+}
+
+section .main-body h4 {
+    margin: 2rem 0 0.6rem;
+    color: var(--ink);
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+section .main-body p {
+    margin-bottom: 1rem;
+}
+
+section .main-body strong {
+    color: var(--ink);
+    font-weight: 800;
+}
+
+section .main-body ul {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section .main-body li {
+    position: relative;
+    padding: 1rem 1.1rem 1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 10px 28px rgba(27, 43, 64, 0.06);
+}
+
+section .main-body li::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    top: 1.3rem;
+    left: -1px;
+    width: 4px;
+    height: 1.8rem;
+    border-radius: 0 4px 4px 0;
+    background: var(--accent);
 }
-
-section header h2{
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    color: var(--h-title-color);
-    font-size: 2.3rem;
-    line-height: 4rem;
-}
-
-section .main-body{
-    font-size: 1.3rem;
-    font-weight: 200;
-    line-height: 2.4rem;
-}
-
 
 .bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+    background: transparent !important;
 }
 
 .bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+    background: linear-gradient(180deg, rgba(238, 243, 248, 0.72), rgba(238, 243, 248, 0.46)) !important;
 }
 
+#home {
+    padding-top: 6.8rem;
+}
 
+#home .main-body {
+    max-width: 720px;
+    color: #4a5568;
+    font-size: 1.08rem;
+}
+
+#home-subtitle {
+    color: var(--accent);
+    font-size: 2rem;
+}
+
+#home-subtitle::after {
+    width: 4.2rem;
+}
+
+#home .main-body h4 {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1.7rem;
+    padding-top: 0.4rem;
+    border-top: 2px solid rgba(198, 137, 72, 0.42);
+}
+
+#publications .main-body li,
+#awards .main-body li {
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+#publications .main-body li:hover,
+#awards .main-body li:hover {
+    transform: translateY(-2px);
+    border-color: rgba(27, 111, 143, 0.26);
+    box-shadow: 0 16px 38px rgba(27, 43, 64, 0.1);
+}
+
+.bg-bottom {
+    background: #101925;
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.64);
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
 
 .on-top {
     position: relative;
@@ -71,42 +362,99 @@ section .main-body{
 }
 
 .top-bg {
+    width: 100%;
+    height: 100%;
     background-position: center;
-    background-size: fill;
-    width: 100%;
-    height: 100%;
-}
-
-.top-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-
-#avatar {
-    position: relative;
-    height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
-    max-width: 55em;
-    margin: 0 1.5rem 0 0;
-    float: right;
-    z-index: 9000;
-}
-
-#avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
 }
 
 @media screen and (max-width: 991px) {
-    #avatar {
-        margin: 0;
+    #mainNav .navbar-nav {
+        align-items: flex-start;
+        padding-top: 0.7rem;
+    }
+
+    .top-section {
+        min-height: 27rem;
+        padding: 8rem 0 6.5rem;
+    }
+
+    .top-section h2 {
+        font-size: 3.1rem;
+    }
+
+    #avatar img {
+        right: 1.5rem;
+        width: 10.75rem;
+        height: 10.75rem;
     }
 }
 
+@media screen and (min-width: 992px) {
+    #mainNav .navbar-toggler {
+        display: none;
+    }
+}
 
+@media screen and (max-width: 767px) {
+    :root {
+        --section-space: 4rem;
+    }
+
+    .container,
+    section .container {
+        max-width: 100%;
+    }
+
+    .top-section {
+        min-height: 25rem;
+        padding: 7.5rem 0 6rem;
+    }
+
+    .top-section h2 {
+        font-size: 2.45rem;
+    }
+
+    .hero-kicker {
+        font-size: 0.68rem;
+    }
+
+    #avatar {
+        display: flex;
+        justify-content: center;
+    }
+
+    #avatar img {
+        right: auto;
+        bottom: -4.2rem;
+        width: 9.25rem;
+        height: 9.25rem;
+    }
+
+    #home {
+        padding-top: 7.2rem;
+    }
+
+    section header h2,
+    #home-subtitle {
+        font-size: 1.55rem;
+    }
+
+    section header h2::after {
+        width: 2.2rem;
+        flex: 0 0 2.2rem;
+    }
+
+    #home-subtitle::after {
+        display: none;
+    }
+
+    section .main-body {
+        font-size: 0.98rem;
+        line-height: 1.75;
+    }
+
+    section .main-body li {
+        padding: 0.9rem 0.95rem 0.9rem 1.1rem;
+    }
+}
