@@ -1,9 +1,9 @@
 
-- Outstanding Master's Thesis Award (HUST), 2026. (Top 5%)
+- Outstanding Master's Thesis Award of HUST, 2026. (Top 5%)
 
-- Outstanding Bachelor's Thesis Award (WUT), 2023. (Top 5%)
+- Outstanding Bachelor's Thesis Award of WUT, 2023. (Top 5%)
 
-- Outstanding Graduate Award (WUT), 2023.
+- Outstanding Graduate Award of WUT, 2023.
 
 
 
