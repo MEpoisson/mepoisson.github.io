@@ -471,14 +471,21 @@ section .main-body li::before {
 #publications .main-body li {
     min-height: 7rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
 }
 
+#publications .main-body li:not(:has(.pub-tags)) {
+    padding-top: 1.28rem;
+    padding-bottom: 0.52rem;
+}
+
 #publications .main-body li:has(.pub-tags) {
     min-height: 7.9rem;
-    align-items: flex-start;
+    justify-content: flex-start;
     padding-bottom: 2.35rem;
 }
 
