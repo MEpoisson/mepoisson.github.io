@@ -29,6 +29,18 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    const lastUpdated = document.getElementById('last-updated');
+    if (lastUpdated) {
+        const today = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Asia/Shanghai',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+        }).format(new Date());
+        lastUpdated.dateTime = today;
+        lastUpdated.textContent = today;
+    }
+
 
     // Yaml
     fetch(content_dir + config_file)
