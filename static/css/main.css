@@ -12,7 +12,8 @@
     --accent-warm: #c68948;
     --shadow: 0 18px 50px rgba(28, 43, 63, 0.12);
     --section-space: 5.5rem;
-    --content-width: 920px;
+    --content-width: 760px;
+    --sidebar-width: 300px;
 }
 
 html {
@@ -199,13 +200,140 @@ a:hover {
     box-shadow: var(--shadow);
 }
 
-aside,
-section {
-    padding-top: var(--section-space);
+.profile-layout {
+    position: relative;
+    z-index: 5;
+    margin-top: -3.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+    gap: 4rem;
+    align-items: start;
+}
+
+.profile-sidebar {
+    position: sticky;
+    top: 6.4rem;
+    align-self: start;
+}
+
+.profile-card {
+    border: 1px solid rgba(220, 227, 236, 0.92);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(14px);
+    padding: 1.4rem;
+}
+
+.profile-photo {
+    width: 9.5rem;
+    height: 9.5rem;
+    display: block;
+    margin: 0 auto 1.2rem;
+    object-fit: cover;
+    border: 0.42rem solid #fff;
+    border-radius: 999px;
+    box-shadow: 0 16px 36px rgba(28, 43, 63, 0.16);
+}
+
+.profile-eyebrow {
+    width: fit-content;
+    margin: 0 auto 0.65rem;
+    padding: 0.32rem 0.58rem;
+    color: var(--accent-dark);
+    border: 1px solid rgba(27, 111, 143, 0.2);
+    border-radius: 999px;
+    background: rgba(27, 111, 143, 0.08);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.profile-card h1 {
+    margin: 0;
+    color: var(--ink);
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 2rem;
+    line-height: 1.05;
+    text-align: center;
+}
+
+.profile-name-cn {
+    margin: 0.35rem 0 0.8rem;
+    color: var(--accent);
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.profile-role {
+    margin: 0 0 1.25rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.profile-links {
+    display: grid;
+    gap: 0.65rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+}
+
+.profile-links a {
+    display: grid;
+    grid-template-columns: 1.25rem minmax(0, 1fr);
+    gap: 0.65rem;
+    align-items: center;
+    min-height: 2.7rem;
+    padding: 0.68rem 0.75rem;
+    color: var(--ink);
+    border: 1px solid rgba(220, 227, 236, 0.9);
+    border-radius: 8px;
+    background: rgba(247, 248, 251, 0.78);
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.profile-links a:hover {
+    transform: translateY(-1px);
+    color: var(--accent-dark);
+    border-color: rgba(27, 111, 143, 0.28);
+    background: #fff;
+}
+
+.profile-links i {
+    color: var(--accent);
+    font-size: 1rem;
+}
+
+.profile-links span {
+    overflow-wrap: anywhere;
+}
+
+.profile-content {
+    min-width: 0;
+}
+
+.profile-content section {
+    padding-top: 0;
     padding-bottom: var(--section-space);
 }
 
-section .container {
+.profile-content section + section {
+    padding-top: var(--section-space);
+    border-top: 1px solid rgba(220, 227, 236, 0.92);
+}
+
+.section-inner {
     max-width: var(--content-width);
 }
 
@@ -298,11 +426,11 @@ section .main-body li::before {
 }
 
 #home {
-    padding-top: 6.8rem;
+    padding-top: 0;
 }
 
 #home .main-body {
-    max-width: 720px;
+    max-width: var(--content-width);
     color: #4a5568;
     font-size: 1.08rem;
 }
@@ -388,6 +516,24 @@ footer a:focus {
         width: 10.75rem;
         height: 10.75rem;
     }
+
+    .profile-layout {
+        margin-top: -3rem;
+    }
+
+    .profile-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .profile-sidebar {
+        position: static;
+    }
+
+    .profile-card {
+        max-width: 34rem;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -402,7 +548,7 @@ footer a:focus {
     }
 
     .container,
-    section .container {
+    .section-inner {
         max-width: 100%;
     }
 
@@ -432,7 +578,7 @@ footer a:focus {
     }
 
     #home {
-        padding-top: 7.2rem;
+        padding-top: 0;
     }
 
     section header h2,
@@ -456,5 +602,35 @@ footer a:focus {
 
     section .main-body li {
         padding: 0.9rem 0.95rem 0.9rem 1.1rem;
+    }
+
+    .profile-layout {
+        margin-top: -4.2rem;
+        padding-bottom: 4rem;
+    }
+
+    .profile-grid {
+        gap: 2.8rem;
+    }
+
+    .profile-card {
+        padding: 1.1rem;
+    }
+
+    .profile-photo {
+        width: 7.8rem;
+        height: 7.8rem;
+    }
+
+    .profile-card h1 {
+        font-size: 1.75rem;
+    }
+
+    .profile-content section {
+        padding-bottom: 4rem;
+    }
+
+    .profile-content section + section {
+        padding-top: 4rem;
     }
 }
