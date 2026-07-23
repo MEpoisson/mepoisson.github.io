@@ -2,7 +2,7 @@
 
 - <strong>BS. Qi</strong>, TR. Lan, ZW. Lian, ZW. Wang*, XJ. Zhang*, and H. Ding. JC$^2$-Calib: A Joint, Consistent, Cayley-Map-based Calibration Method for Multiple Geometric Transformations in Robotic Measurement System. <strong>IEEE Transactions on Automation Science and Engineering</strong>. 2026. <span class="pub-tags"><span class="pub-tag tag-accepted">Accepted</span><span class="pub-tag tag-jcr-q1">JCR Q1</span><span class="pub-tag tag-ccf-b">CCF-B</span><span class="pub-tag tag-if">IF: 7.9</span></span>
 
-- <strong>BS. Qi</strong>, XY. Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding. A Robust Simultaneous Calibration Method for Mobile Robotic Measurement System Based on Global-Photogrammetry Tracking. <strong>IEEE Transactions on Instrumentation and Measurement</strong>. 2025. <span class="pub-tags"><span class="pub-tag tag-accepted">Accepted</span><span class="pub-tag tag-jcr-q1">JCR Q1</span><span class="pub-tag tag-if">IF: 7.0</span></span> [[Paper]](https://ieeexplore.ieee.org/abstract/document/11063423)
+- <strong>BS. Qi</strong>, XY. Lin, ZW. Wang, YF. Yang, XJ. Zhang*, SJ. Yan, and H. Ding. A Robust Simultaneous Calibration Method for Mobile Robotic Measurement System Based on Global-Photogrammetry Tracking. <strong>IEEE Transactions on Instrumentation and Measurement</strong>. 2025. <span class="pub-tags"><span class="pub-tag tag-accepted">Accepted</span><span class="pub-tag tag-jcr-q1">JCR Q1</span><span class="pub-tag tag-if">IF: 5.9</span></span> [[Paper]](https://ieeexplore.ieee.org/abstract/document/11063423)
 
 #### Co-author
 
