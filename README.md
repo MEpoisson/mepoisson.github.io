@@ -58,3 +58,4 @@ This site is a customized academic homepage for my own research and personal inf
 ## License
 
 This project is based on an academic personal website template and is used for personal academic presentation. The site content is maintained by Bosong Qi and may be customized as needed.
+# BosongQi
