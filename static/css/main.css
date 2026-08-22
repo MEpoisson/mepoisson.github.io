@@ -532,39 +532,39 @@ section .main-body li::before {
 }
 
 .tag-accepted {
-    color: #08704b;
-    border-color: #42d99a;
-    background: #dcfff0;
+    color: #096c43;
+    border-color: #3dc98d;
+    background: linear-gradient(135deg, #e8fff4 0%, #d2f5e4 100%);
 }
 
 .tag-under-review {
-    color: #9b1c1c;
-    border-color: #f29a9a;
-    background: #ffe5e5;
+    color: #8d1f1f;
+    border-color: #f07d7d;
+    background: linear-gradient(135deg, #fff0f0 0%, #ffd8d8 100%);
 }
 
 .tag-ccf-a {
-    color: #663399;
-    border-color: #c7a4f5;
-    background: #f1e8ff;
+    color: #5a2b8c;
+    border-color: #b78ae6;
+    background: linear-gradient(135deg, #f7f0ff 0%, #e9dcff 100%);
 }
 
 .tag-ccf-b {
-    color: #1f4f99;
-    border-color: #93baf2;
-    background: #e7f0ff;
+    color: #1d4d9a;
+    border-color: #7eaaf8;
+    background: linear-gradient(135deg, #edf5ff 0%, #d8eafe 100%);
 }
 
 .tag-jcr-q1 {
     color: #8a5a00;
-    border-color: #e4bd55;
-    background: #fff4cf;
+    border-color: #f0b84d;
+    background: linear-gradient(135deg, #fff8df 0%, #ffe6a3 100%);
 }
 
 .tag-if {
-    color: #345160;
-    border-color: #a9c3cf;
-    background: #edf5f8;
+    color: #0f5d6e;
+    border-color: #6db9c6;
+    background: linear-gradient(135deg, #edfafd 0%, #d5f0f7 100%);
 }
 
 #publications .main-body li:hover,

@@ -1,69 +1,60 @@
 
+# Bosong Qi's Academic Homepage
 
-![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)
-![Github Stars](https://img.shields.io/github/stars/senli1073/senli1073.github.io?style=flat)
-![License](https://img.shields.io/github/license/senli1073/senli1073.github.io)
-![Last Commit](https://img.shields.io/github/last-commit/senli1073/senli1073.github.io)
+This repository hosts the personal academic website of Bosong Qi, built with GitHub Pages and Markdown-based content management. It is used to present my profile, research interests, publications, awards, and academic achievements.
 
-# A simple Github Pages template for personal academic websites.
+## Overview
 
-## Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/senli1073.github.io/main/screenshot_full.png)](https://senli1073.github.io/)
+The website is organized as follows:
 
+- `contents/`: homepage content, publications, awards, and site configuration
+- `static/`: CSS, JavaScript, images, and other static assets
+- `index.html`: main page entry for GitHub Pages
 
-## Introduction
+## Personal information
 
-This personal academic website template is based on [bootstrap](https://github.com/StartBootstrap/startbootstrap-new-age).
+I am currently a Ph.D. student in the iMAP Lab at Wuhan University, focusing on photogrammetry, robotic sensing, and 3D reconstruction. My research centers on sensor calibration, SLAM, and feed-forward 3D reconstruction.
 
-The template is designed to integrate Markdown files as content input.  There's no need to compile the webpage before deployment.  Upon loading, the Markdown files are automatically parsed and embedded into the page.
+## Main editable files
 
-This template supports LaTeX formula input. You can use `$...$` and `\(...\)` as delimiters for inline-math, or use `$$...$$` and `\[...\]` as delimiters for display-math. Macros such as `\ref{...}`, `\eqref{...}`, and `\begin{equation}...\end{equation}` are also supported. See [MathJax](https://docs.mathjax.org/en/latest/index.html) for more details.
+To update the site, the most commonly used files are:
 
-:milky_way: Demo: https://senli1073.github.io/
+1. `contents/config.yml` — page title, subtitle, copyright, and website metadata
+2. `contents/home.md` — profile and introduction
+3. `contents/publications.md` — publication list and research output
+4. `contents/awards.md` — awards and honors
+5. `static/assets/img/` — profile photo and background images
 
+## Local preview
 
-## Getting Start
-### 1. Fork this repository
-The repository name should be `<username>.github.io`, which will also be your website's URL.
+You can preview the site locally by opening the project in a browser or by serving the repository via a simple local web server.
 
-
-### 2. Edit page content
-
-(1) Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-The directory structure is as follows:
-
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
+```bash
+git clone https://github.com/mepoisson/mepoisson.github.io.git
+cd mepoisson.github.io
+python3 -m http.server 8000
 ```
 
-(2) Modify the content of each section, which corresponds to `contents/*.md`.
+Then open `http://localhost:8000` in a browser.
 
-(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+## Deployment
 
-(4) Replace background image and photo with new ones for your web pages in `static/assets/img/`
+This repository is designed for GitHub Pages. After editing the content, commit and push to the repository:
 
-(5) Push it: 
-```
-git commit -am 'init'
+```bash
+git add .
+git commit -m "Update homepage content"
 git push
 ```
 
+Then the site will be published at:
 
-### 3. Enjoy
+- `https://mepoisson.github.io`
 
-Fire up a browser and go to `https://<username>.github.io`
+## Notes
 
-
+This site is a customized academic homepage for my own research and personal information. If you want to reuse the template for another academic profile, the structure and content files are easy to adapt with minimal changes.
 
 ## License
 
-Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
+This project is based on an academic personal website template and is used for personal academic presentation. The site content is maintained by Bosong Qi and may be customized as needed.
