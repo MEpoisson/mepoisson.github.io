@@ -561,12 +561,6 @@ section .main-body li::before {
     background: #fff4cf;
 }
 
-.tag-if {
-    color: #345160;
-    border-color: #a9c3cf;
-    background: #edf5f8;
-}
-
 #publications .main-body li:hover,
 #awards .main-body li:hover {
     transform: translateY(-2px);
