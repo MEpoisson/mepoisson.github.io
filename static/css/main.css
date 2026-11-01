@@ -491,80 +491,9 @@ section .main-body li::before {
     transform: translateY(-50%);
 }
 
+#publications .main-body li p,
 #awards .main-body li p {
     margin: 0;
-}
-
-#publications .main-body li:not(:has(.pub-tags)) {
-    padding-top: 1.28rem;
-    padding-bottom: 0.52rem;
-}
-
-#publications .main-body li:has(.pub-tags) {
-    min-height: 7.9rem;
-    justify-content: flex-start;
-    padding-bottom: 2.35rem;
-}
-
-.pub-tags {
-    position: absolute;
-    right: 1rem;
-    bottom: 0.6rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 0.38rem;
-    max-width: calc(100% - 2rem);
-}
-
-.pub-tag {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.26rem 0.52rem;
-    border-radius: 8px;
-    border: 1px solid transparent;
-    box-shadow: 0 8px 22px rgba(27, 43, 64, 0.06);
-    font-size: 0.78rem;
-    font-weight: 800;
-    line-height: 1.15;
-    white-space: nowrap;
-}
-
-.tag-accepted {
-    color: #096c43;
-    border-color: #3dc98d;
-    background: linear-gradient(135deg, #e8fff4 0%, #d2f5e4 100%);
-}
-
-.tag-under-review {
-    color: #8d1f1f;
-    border-color: #f07d7d;
-    background: linear-gradient(135deg, #fff0f0 0%, #ffd8d8 100%);
-}
-
-.tag-ccf-a {
-    color: #5a2b8c;
-    border-color: #b78ae6;
-    background: linear-gradient(135deg, #f7f0ff 0%, #e9dcff 100%);
-}
-
-.tag-ccf-b {
-    color: #1d4d9a;
-    border-color: #7eaaf8;
-    background: linear-gradient(135deg, #edf5ff 0%, #d8eafe 100%);
-}
-
-.tag-jcr-q1 {
-    color: #8a5a00;
-    border-color: #f0b84d;
-    background: linear-gradient(135deg, #fff8df 0%, #ffe6a3 100%);
-}
-
-.tag-if {
-    color: #0f5d6e;
-    border-color: #6db9c6;
-    background: linear-gradient(135deg, #edfafd 0%, #d5f0f7 100%);
 }
 
 #publications .main-body li:hover,
@@ -709,20 +638,6 @@ footer a:focus {
 
     section .main-body li {
         padding: 0.9rem 0.95rem 0.9rem 1.1rem;
-    }
-
-    #publications .main-body li:has(.pub-tags) {
-        min-height: 8.4rem;
-        padding-bottom: 2.9rem;
-    }
-
-    .pub-tags {
-        right: 0.85rem;
-        bottom: 0.6rem;
-    }
-
-    .pub-tag {
-        font-size: 0.72rem;
     }
 
     .profile-layout {
